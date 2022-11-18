@@ -1,0 +1,31 @@
+.section--subtitle{
+  height: 14rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url("");
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;  
+  
+}
+.section--subtitle h3{
+  letter-spacing: 3px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.galeria{
+  border-radius: 20px;
+  background-image: url("../../img/back-2.png");
+}
+
+.equipo{
+  background-image: url("../../img/back-3.png");
+}
+.empresas{
+  background-image: url("/img/clientes.png");
+}
+
+
+/* "../../img/back-1.png" */

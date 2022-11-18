@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store-TOYS</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <!-- --------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+    <header class="header">
+      <nav class="nav">
+        <div class="container elements elements--header-nav">
+          <a href="#" class="nav__logotext"
+            ><img src="./img/banner-navidad.jpg" alt="" class="nav__logo" /> TOYS</a
+          >
+          <button class="nav__icon nav__icon--menu" id="navIconMenu">
+            <i class="bi bi-list"></i>
+          </button>
+          <ul class="menu menu--header">
+            <li><a href="#hero" class="menu__link">INICIO</a></li>
+            <li><a href="#nosotros" class="menu__link">NOSOTROS</a></li>
+            <li><a href="#galeria" class="menu__link">CATALOGO</a></li>
+            <li><a href="#contacto" class="menu__link">CONTACTO</a></li>
+            <li class="nav__icon nav__icon--close" id="navIconClose">
+              <i class="bi bi-x-circle"></i>
+            </li>
+          </ul>
+          <a href="tel:+51997629316" class="phone"
+            ><i class="bi bi-telephone-fill"></i>997629316</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <article class="section section--hero" id="hero">
+        <div class="container--hero">
+          <div class="container--elements">
+            <h1>Store Toys</h1>
+            <h4>LO MEJOR PARA NUESTROS NIÑOS!!..</h4>
+            <a href="#galeria" style="border-radius:10px ;">CATALOGO</a>
+          </div>
+        </div>
+      </article>
+
+      <section class="section section--subtitle" id="nosotros">
+        <div class="container">
+          <div class="background__container">
+            <h3>NOSOTROS</h3>
+          </div>
+        </div>
+      </section>
+
+<!-- slider 2 -->
+<div id="carouselExampleIndicators"  class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button  style="background-color: black;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button style="background-color: black;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button  style="background-color: black;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button  style="background-color: black;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner" style="margin-top:20px;height:fit-content;" >
+    <div class="carousel-item active">
+      <img src="./img/slide-1.webp" class="d-block w-100"  alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/slide-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/slide-3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/slide-4.jfif" class="d-block w-100" alt="...">
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- fin de slider2 -->
+      <article class="section section--page">
+        <div class="container container__elements--section">
+          <div class="container--text">
+            <div>
+              <h4>HISTORIA</h4>
+              <p>
+              Buscamos alegrar a los niños esat Navidad,regalales sonrisas y fantasias a los niños
+              </p>
+            </div>          
+          </div>
+          <div class="container-image">
+            <img
+              src="./img/histroia.jfif"
+              alt="love"
+            />
+          </div>
+        </div>
+      </article>
+
+      <section class="section section--subtitle galeria" id="galeria">
+        <div class="container">
+          <div class="background__container">
+            <h3>CATALOGO</h3>
+          </div>
+        </div>
+      </section>
+      
+
+      <article class="section section--page">
+        <div class="container container__elements--section">
+          <div class="container-image image__gallery">
+            <img
+              src="./img/article-1.jfif"
+              alt="love-2" width="100%"
+            />
+           
+            <!-- modal prueba -->
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  ver producto
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" style="color:#000 ;" id="exampleModalLabel">VIKINGOS TOY</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p>ARCO CAZADOR -NIÑOS: CON FLECHAS Y FUNDA</p>
+      <div><img src="./img/article-1.jfif" width="100%" center alt=""></div>
+      <span>Precio de oferta</span> <hr><span>S/.25.00</span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> 
+        <button type="button" class="btn btn-success"><a style="text-decoration:none;color: #fff;" href="https://api.whatsapp.com/send?phone=51997629316&text=Hola%20bienvenidos%20%20a%20store--" target="_blank"><i class="bi bi-whatsapp">Pedirlo</i></a></button>        
+      </div>
+    </div>
+  </div>
+</div> 
+ </div>
+ <!-- fin modal -->
+          
+     <!-- PRODUCTO2 -->
+          
+          <div class="container-image image__gallery">
+            <img
+              src="./img/article-5.jfif"
+              alt="" width="100%"
+            />
+         
+<button type="button" class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  ver producto
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" style="color:#000 ;" id="exampleModalLabel">VIKINGOS TOY</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+      <p>ESCUDO MEDIEVAL-</p>
+      <div><img src="./img/article-5.jfif" width="100%" center alt=""></div>
+      <span>Precio de oferta</span> <hr><span>S/.20.00</span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> 
+        <button type="button" class="btn btn-success"><a style="text-decoration:none;color: #fff;" href="https://api.whatsapp.com/send?phone=51997629316&text=Hola%20bienvenidos%20%20a%20store--" target="_blank"><i class="bi bi-whatsapp">Pedirlo</i></a></button>        
+      </div>
+    </div>
+  </div>
+</div>           
+</div>
+<!-- PRODUCTO 3 -->
+<div class="container-image image__gallery">
+  <img
+    src="./img/article-2.jfif"
+    alt="" width="100%"
+  />
+
+<button type="button" class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+ver producto
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h1 class="modal-title fs-5" style="color:#000 ;" id="exampleModalLabel">CITY TOYS</h1>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>ESCOPETAS COMISARIO: INCLUYE ESPOSAS,MIRADOR,BALINES DE CHUPON DOS ESCOPETAS-</p>
+<div><img src="./img/article-2.jfif" width="100%"  alt=""></div>
+<span>Precio de oferta</span> <hr><span>S/.30.00</span>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> 
+<button type="button" class="btn btn-success"><a style="text-decoration:none;color: #fff;" href="https://api.whatsapp.com/send?phone=51997629316&text=Hola%20bienvenidos%20%20a%20store--" target="_blank"><i class="bi bi-whatsapp">Pedirlo</i></a></button>        
+</div>
+</div>
+</div>
+</div>           
+</div>
+<!-- PRODUCTO 4 -->
+<div class="container-image image__gallery">
+  <img
+    src="./img/article-4.jfif"
+    alt="" width="100%"
+  />
+
+<button type="button" class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+ver producto
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h1 class="modal-title fs-5" style="color:#000 ;" id="exampleModalLabel">Compacto - marvel</h1>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>ESCUDO Y ESPADA</p>
+<div><img src="./img/article-4.jfif" width="100%"  alt=""></div>
+<span>Precio de oferta</span> <hr><span>S/.25.00</span>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> 
+<button type="button" class="btn btn-success"><a style="text-decoration:none;color: #fff;" href="https://api.whatsapp.com/send?phone=51997629316&text=Hola%20bienvenidos%20%20a%20store--" target="_blank"><i class="bi bi-whatsapp">Pedirlo</i></a></button>        
+</div>
+</div>
+</div>
+</div>           
+</div>
+ 
+          
+ 
+        </div>
+      </article>
+
+      <!-- <section class="section section--subtitle equipo">
+        <div class="container">
+          <div class="background__container">
+            <h3>DESEAS SER PARTE</h3>
+          </div>
+        </div>
+      </section>
+
+      <article class="section section--page">
+        <div class="container container__elements--section">
+          <div class="container-image image__gallery card">
+            <img
+              src="./img/ELLA.jpg"
+              alt="ELLA"
+            />
+            <div class="container--info">
+              <div class="container--text-card">
+                <h4 class="text-card">SARA HELEN</h4>
+                <h6>ATENCION AL CLIENTE</h6>
+              </div>
+              <div class="button--phone">
+                <a href="tel:997629316"><i class="bi bi-telephone-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="container-image image__gallery card">
+            <img
+              src="./img/EL.jpg"
+              alt="EL"
+            />
+            <div class="container--info">
+              <div class="container--text-card">
+                <h4 class="text-card">TEO MORRITS</h4>
+                <h6>VENTAS </h6>
+              </div>
+              <div class="button--phone">
+                <a href="tel:997629316"><i class="bi bi-telephone-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article> -->
+
+      <article class="section" id="contacto">
+        <div class="container">
+          <div class="card--email">
+            <div class="card__title">
+              <h3>RECIBE OFERTAS ESPECIALES</h3>
+              <h6>REGISTRA TU CORREO ELECTRONICO</h6>
+            </div>
+            <div class="container container--inputs">
+              <input type="email" placeholder="ejemplo@hotmail.com" class="input--email">
+              <input type="submit" value="ENVIAR" class="input-submit" >
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+
+      <div class="box-container">
+  
+          <div class="box">
+            <img src="./img/banner-navidad.jpg" alt="" class="nav__logo" /><h3>STORE-TOYS</h3>
+              <p>SIGUENOS EN NUESTRAS REDES SOCIALES</p>
+              <div class="share">
+                  <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
+              </div>
+          </div>
+  
+          <div class="box">
+              <h3>CONTACTO</h3>
+              <a href="tel:+51997629316" class="links"><i class="bi bi-telephone-fill"></i>+51 997629316 </a>
+              <a href="mailto:sifuentes1201@gmail.com" class="links"> <i class="bi bi-envelope-fill"></i> sifuentes1201@gmail.com </a>
+              <!-- <a href="" class="links"><i class="bi bi-geo-alt-fill"></i>urb.jardines de san Mateo Mz D lt 09-BARRANCA </a> -->
+          </div>
+  
+          <div class="box">
+              <h3>IR A</h3>
+              <a href="#hero" class="links"><i class="bi bi-caret-right-fill"></i>INICIO </a>
+              <a href="#nosotros" class="links"><i class="bi bi-caret-right-fill"></i>NOSOTROS </a>
+              <a href="#galeria" class="links"><i class="bi bi-caret-right-fill"></i>GALERIA </a>
+              <a href="#contacto" class="links"><i class="bi bi-caret-right-fill"></i>CONTACTO </a>
+          </div>
+
+          <div class="box">
+            <h3>REGISTRATE</h3>
+            <p>INGRESA AQUI TU CORREO ELECTRONICO</p>
+            <input type="email" placeholder="ejemplo@hotmail.com" class="input">
+            <input type="submit" value="ENVIAR" class="btn">
+        </div>
+      </div>
+  
+      <div class="credit"> DESARROLLADO POR <span> GUILLERMO SIFUENTES</span> | <a href="#" target="_blank">CONTACTAME</a> </div>
+  
+    </footer>
+  
+    <script src="./js/index.js"></script>
+    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

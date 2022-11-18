@@ -1,0 +1,13 @@
+.header {
+  position: fixed;
+  z-index: 25;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: background-color 0.25s, box-shadow 0.25s;
+}
+
+.header{
+  background-color: rgba(255, 255, 255, 0.812);
+  box-shadow: 0 0 0.0625rem 0.0625rem  #ffffff80;
+}
